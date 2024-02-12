@@ -71,3 +71,8 @@
 .AdicionarUsuario button:hover {
   background-color: #243850;
 }
+
+.logoImage {
+  width: 100px;
+  height: auto; 
+}
