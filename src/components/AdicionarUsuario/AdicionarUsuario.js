@@ -42,7 +42,7 @@ class AdicionarUsuario extends Component {
   render() {
     return (
       <div className="AdicionarUsuario">
-        <h2>Adicionar Usuário</h2>
+        <h2>Cadastro de Novo Usuário</h2>
         <form onSubmit={this.onSubmitHandler}>
           <div className="Linha">
             <div className="Coluna">

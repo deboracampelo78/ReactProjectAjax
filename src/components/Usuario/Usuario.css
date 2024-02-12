@@ -18,7 +18,7 @@
 }
 
 .Usuario ul li strong {
-  color: #DA3C78;
+  color: #243850;
 }
 
 .Usuario button {
@@ -35,12 +35,12 @@
   font-family: sans-serif;
   position: absolute;
   border-radius: 1.5rem;
-  background-color: #ced4da;
+  background-color: #6cbe66;
   padding: .2rem .35rem .35rem .35rem;
 }
 
 .Usuario button:hover,
 .Usuario button:focus {
   color: #FFF;
-  background-color: #FF6CA8;
+  background-color: #243850;
 }
