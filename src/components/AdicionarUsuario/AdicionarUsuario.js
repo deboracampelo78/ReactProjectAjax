@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
 import './AdicionarUsuario.css'
+import DCtechImage from './dctech2.png'
+
 
 const INICIAL_STATE = {
     usuario: { nome: '', sobrenome: '', email: '' }
@@ -42,6 +44,7 @@ class AdicionarUsuario extends Component {
   render() {
     return (
       <div className="AdicionarUsuario">
+        <img src={DCtechImage} alt="Dc Tech Logo" className='logoImage'/>
         <h2>Cadastro de Novo Usuário</h2>
         <form onSubmit={this.onSubmitHandler}>
           <div className="Linha">
