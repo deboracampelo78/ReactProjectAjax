@@ -1,0 +1,32 @@
+.App {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #212529;
+}
+
+@media (min-width: 576px) {
+  .App {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .App {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .App {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .App {
+    max-width: 1140px;
+  }
+}
