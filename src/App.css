@@ -1,4 +1,4 @@
-.App {
+.App main {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -8,25 +8,63 @@
 }
 
 @media (min-width: 576px) {
-  .App {
+  .App main {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .App {
+  .App main {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .App {
+  .App main {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .App {
+  .App main {
     max-width: 1140px;
   }
 }
+
+.App nav {
+  padding: 0;
+  background-color: #243850;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .14);
+}
+
+.App nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.App nav ul li {
+  display: block;
+}
+
+.App nav ul li a {
+  display: block;
+  padding: 1rem;
+  color: #6cbe66;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.App nav ul li a:hover {
+ background-color: #6cbe66;
+ color: #243850;
+}
+
+.App nav ul li a.active {
+  background-color: #6cbe66;
+  color: #243850;
+ }
