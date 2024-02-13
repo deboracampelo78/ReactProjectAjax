@@ -24,7 +24,7 @@ function Usuarios() {
         })
         setUsuarios(usuarios)
       })
-  },[] )// O array vazio passado como o segundo argumento faz com que esse efeito só seja executado uma vez, equivalente ao componentDidMount
+  },[] )// O array vazio como segundo argumento faz com que esse efeito só seja executado uma vez, equivalente ao componentDidMount
 
   //usuariosAtuais -> pegam o estado atual do array
   //usuario -> adiciona o novo usuário

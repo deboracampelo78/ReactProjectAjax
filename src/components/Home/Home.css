@@ -1,0 +1,26 @@
+/* Arquivo Home.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.logoImage {
+    position: fixed; /* Define a posição fixa para que a logo permaneça na mesma posição ao rolar a página */
+    top: 20px; /* Distância do topo */
+    left: 10px; /* Distância da borda direita */
+    width: 200px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
